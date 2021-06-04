@@ -1,0 +1,179 @@
+backgroundContainer {
+  position: 'absolute';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+overlay {
+  opacity: 0.5;
+  background-color: '#000000';
+}
+
+backdrop {
+  flex:1;
+  flex-direction: 'column';
+}
+
+.jumbotron{
+  position: relative;
+}
+
+.new-jumbotron{
+  position: relative;
+	left: 25%;
+	bottom: 8%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	margin: 0 auto;
+	background: #000;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+  -webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 60%;
+	min-width: 15em;
+	padding: .25em .65em;
+	-webkit-box-shadow: 0 0 2em 0 #000;
+	-moz-box-shadow: 0 0 2em 0 #000;
+	box-shadow: 0 0 2em 0 #000;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	border-radius: .75em
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+#video-background {
+  max-width: 63%;
+  max-height: 47%;
+  top: 10%;
+  left: 18%;
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    width:100%;
+}
+
+#video-background-a {
+  max-width: 85%;
+  max-height: 73%;
+  top: 13%;
+  left: 14%;
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    width:100%;
+}
+
+.download-animation {
+  position: absolute;
+	left: 30%;
+	bottom: 8%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	margin: 0 auto;
+	background: #000;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 67%;
+	min-width: 15em;
+	padding: .25em .65em;
+	border: 2px solid rgba(255, 255, 255, .25);
+	-webkit-box-shadow: 0 0 2em 0 #000;
+	-moz-box-shadow: 0 0 2em 0 #000;
+	box-shadow: 0 0 2em 0 #000;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	border-radius: .75em
+}
+
+.download-animation:after{
+  width: 3em;
+	height: 3em;
+	outline: 2px solid #000;
+	outline-offset: -2px;
+	display: block;
+	background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	content: '';
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	-moz-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.download-animation-text{
+  margin: 0 1em 0 0;
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	-moz-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.text-0{
+  color: #fff;
+	font-weight: 600;
+	font-size: 1em;
+  padding-right: 8em;
+}
+
+.text-1{
+  color: #0071eb;
+	font-size: .75em;
+	font-weight: 400
+}
+
+.boxshot{
+  height: 5em;
+  width: auto;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.myImg{
+  margin: 0 1em 0 0;
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	-moz-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}

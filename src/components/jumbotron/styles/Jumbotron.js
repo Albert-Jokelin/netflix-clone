@@ -45,6 +45,14 @@ export const Image = styled.img`
   height: auto;
 `;
 
+export const Images = styled.img`
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  position: relative;
+  z-index: 5;
+`;
+
 export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
@@ -60,3 +68,9 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const Video = styled.video`
+  width:100%;
+  z-index: -100;
+`;
+
