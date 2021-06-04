@@ -1,6 +1,10 @@
 # See it online
 Link to website: https://distracted-colden-78d8b0.netlify.app
 
+# TODO
+- Add Firebase Auth.
+- Create the main UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
