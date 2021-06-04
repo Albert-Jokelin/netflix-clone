@@ -27,6 +27,7 @@ export function FooterContainer() {
                     <Footer.Link href="#">Redeem Gift Cards</Footer.Link>
                     <Footer.Link href="#">Privacy</Footer.Link>
                     <Footer.Link href="https://fast.com/">Speed Test</Footer.Link>
+                    <Footer.Link href="https://github.com/Albert-Jokelin/netflix-clone">GitHub Repository</Footer.Link>
                 </Footer.Column>
 
                 <Footer.Column>
