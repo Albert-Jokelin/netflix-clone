@@ -3,7 +3,6 @@ import jumboData from "../fixtures/jumbo.json"
 import { Jumbotron } from "../components"
 import '../components/jumbotron/styles/stylesheet.css'
 import boxshot from '../boxshot.png'
-import downloadIcon from '../download-icon.gif'
 
 
 export function JumbotronContainer() {
