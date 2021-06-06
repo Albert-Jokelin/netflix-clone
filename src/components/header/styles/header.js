@@ -111,6 +111,7 @@ export const Picture = styled.button`
   background: url(${({ src }) => src});
   background-size: contain;
   border: 0;
+  border-radius: 3px;
   width: 32px;
   height: 32px;
   cursor: pointer;
