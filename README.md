@@ -2,8 +2,8 @@
 Link to website: https://distracted-colden-78d8b0.netlify.app
 
 # TODO
-- Add Firebase Auth.
-- Create the main UI
+- Make Error 404 page
+- Setup mechanism to cache data.
 
 # Getting Started with Create React App
 
