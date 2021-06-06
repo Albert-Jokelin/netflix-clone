@@ -31,7 +31,7 @@ Player.Video = function PlayerVideo({ children, ...restProps }) {
       )
     : null;
 };
-
+/* eslint-disable no-unused-vars */
 Player.Button = function PlayerButton({ ...restProps }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
@@ -41,3 +41,4 @@ Player.Button = function PlayerButton({ ...restProps }) {
     </Button>
   );
 };
+/* eslint-enable no-unused-vars */
